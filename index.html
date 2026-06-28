@@ -7,13 +7,14 @@
     <style>
         :root { --bg: #0f172a; --card: #1e293b; --red: #e11d48; --green: #10b981; --blue: #2563eb; --txt: #f8fafc; --muted: #94a3b8; }
         body { font-family: sans-serif; background-color: var(--bg); color: var(--txt); margin: 0; padding: 0; line-height: 1.5; }
-        header { background: linear-gradient(135deg, #e11d48, #be123c); padding: 25px; text-align: center; }
+        header { background: linear-gradient(135deg, #e11d48, #be123c); padding: 25px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
         header h1 { margin: 0; font-size: 2rem; }
         header p { margin: 5px 0 0 0; color: #ffe4e6; font-size: 1rem; }
         .container { max-width: 1100px; margin: auto; padding: 20px; }
         h2 { border-left: 5px solid var(--red); padding-left: 10px; margin-top: 30px; color: #fff; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-        .card { background: var(--card); border-radius: 10px; padding: 15px; display: flex; flex-direction: column; justify-content: space-between; }
+        .card { background: var(--card); border-radius: 10px; padding: 15px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+        .card:hover { transform: translateY(-5px); }
         .badge { align-self: flex-start; color: white; font-size: 0.7rem; padding: 3px 8px; border-radius: 50px; font-weight: bold; margin-bottom: 8px; }
         .b-drama { background-color: var(--red); }
         .b-cric { background-color: var(--blue); }
@@ -24,14 +25,14 @@
         .btn { display: block; color: white; text-align: center; padding: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 0.9rem; }
         .btn-red { background-color: var(--red); }
         .btn-green { background-color: var(--green); }
-        footer { text-align: center; padding: 30px; margin-top: 5px; background: #020617; color: var(--muted); font-size: 0.85rem; border-top: 1px solid #1e293b; }
+        footer { text-align: center; padding: 30px; margin-top: 40px; background: #020617; color: var(--muted); font-size: 0.85rem; border-top: 1px solid #1e293b; }
     </style>
 </head>
 <body>
 
     <header>
         <h1>🌟 HOORULAIN | Pak Premium Hub</h1>
-        <p>10 Dramas, 10 Cricket News & 10 Daraz Best Discount Deals</p>
+        <p>Latest Drama Updates, Live Cricket News & Best Daraz Shopping Deals</p>
     </header>
 
     <div class="container">
@@ -55,7 +56,7 @@
                 <span class="badge b-drama">Trending Romance</span>
                 <h3>3. Winter Love</h3>
                 <p>Mawra Hocane aur Khushhal Khan ka hit romantic comedy drama jo abhi trend kar raha hai.</p>
-                <a href="https://youtube.com" target="_blank" class="btn btn-red">Watch On YouTube</a>
+                <a href="https://youtube.complaylist?list=PLbVdwtmx18ssS3CAA93uoYbF5mJswWkhf" target="_blank" class="btn btn-red">Watch On YouTube</a>
             </div>
             <div class="card">
                 <span class="badge b-drama">Rating: 9.4 TRP</span>
@@ -102,7 +103,7 @@
         </div>
 
         <!-- ================= 10 CRICKET POSTS ================= -->
-        <h2>🏏 Cricket Premium Corner (Top 10)</h2>
+        <h2>🏏 Cricket Premium Corner (Top 10 Updates)</h2>
         <div class="grid">
             <div class="card">
                 <span class="badge b-cric">T20 World Cup</span>
@@ -155,17 +156,7 @@
             <div class="card">
                 <span class="badge b-cric">Upcoming Tour</span>
                 <h3>9. Pakistan Tour of West Indies</h3>
-                <p>Pakistan men's team ka tour of West Indies July se shuru hoga jahan matches khele jayein ge.</p>
-                <a href="https://pcb.com.pk" target="_blank" class="btn btn-red">Series Fixtures</a>
-            </div>
-            <div class="card">
-                <span class="badge b-cric">Champions</span>
-                <h3>10. Abbottabad Wins National T20</h3>                <p>Abbottabad ne Karachi Whites ko hara kar pehli martaba National T20 Cup ka title jeeta.</p>
-                <a href="https://pcb.com.pk" target="_blank" class="btn btn-red">Celebration Clips</a>
-            </div>
-        </div>
-
-        <!-- ================= MUKAMMAL 10 DARAZ DEALS ================= -->
+                <p>Pakistan men's team ka tour of West Indies July se shuru hoga jahan matches khele jayein ge.</p>        <!-- ================= MUKAMMAL 10 DARAZ DEALS ================= -->
         <h2>🛍 Hot Offers Store (10 Verified Daraz Deals)</h2>
         <div class="grid">
             <div class="card">
@@ -173,73 +164,74 @@
                 <h3>1. Trending Celebrity Lawn Suit</h3>
                 <p>Viral Pakistani dramas mein actresses ka pehna hua premium designer lawn suit collection.</p>
                 <div class="price">Rs. 2,499</div>
-                <a href="https://daraz.pk" target="_blank" class="btn btn-green">Buy on Daraz</a>
+                <a href="https://urtrackinglink.com" target="_blank" class="btn btn-green">Buy on Daraz</a>
             </div>
             <div class="card">
                 <span class="badge b-deal">60% OFF</span>
                 <h3>2. Hommold Smart Kitchen Organizer</h3>
-                <p>Modern kitchen ke liye luxury rack organizers aur storage box setups wholesale rates par.</p>
+                <p>Hommold brand ki kitchen utility sale! Storage racks aur premium setups par exclusive discount deals.</p>
                 <div class="price">Rs. 1,150</div>
-                <a href="https://daraz.pk" target="_blank" class="btn btn-green">Buy on Daraz</a>
+                <a href="https://urtrackinglink.com&file_id=35509" target="_blank" class="btn btn-green">Buy on Daraz</a>
             </div>
             <div class="card">
                 <span class="badge b-deal">50% OFF</span>
-                <h3>3. Wireless Bluetooth AirPods</h3>
-                <p>Premium heavy bass aur ultra long battery life wale trending sound gaming earbuds.</p>
+                <h3>3. Wireless Stinnos Audio AirPods</h3>
+                <p>Stinnos electronics mega sale! Heavy bass aur long battery life wale trending premium sound gaming earbuds.</p>
                 <div class="price">Rs. 1,850</div>
-                <a href="https://daraz.pk" target="_blank" class="btn btn-green">Buy on Daraz</a>
+                <a href="https://urtrackinglink.com&file_id=35625" target="_blank" class="btn btn-green">Buy on Daraz</a>
             </div>
             <div class="card">
                 <span class="badge b-deal">45% OFF</span>
-                <h3>4. Smart Android TV Box</h3>
-                <p>Apne simple home TV ko Android TV banayein aur YouTube ya netflix streams chalayein.</p>
+                <h3>4. Smart Android TV Box & Phones</h3>
+                <p>Samsung electronics aur Android smart setups par exclusive discounts, abhi order karein.</p>
                 <div class="price">Rs. 3,200</div>
-                <a href="https://daraz.pk" target="_blank" class="btn btn-green">Buy on Daraz</a>
+                <a href="https://urtrackinglink.com&file_id=35621" target="_blank" class="btn btn-green">Buy on Daraz</a>
             </div>
             <div class="card">
-                <span class="badge b-deal">40% OFF</span>
-                <h3>5. Trending Aesthetics Cloud Bag</h3>
-                <p>College use aur outdoor outfits ke liye larkiyon ka sabsay trending solid shoulder bag.</p>
-                <div class="price">Rs. 999</div>
-                <a href="https://daraz.pk" target="_blank" class="btn btn-green">Buy on Daraz</a>
+                <span class="badge b-deal">50% OFF</span>
+                <h3>5. Daraz Premium Gifting Corner</h3>
+                <p>Special celebration and wedding season deals! Luxury gift packs, watches aur lifestyle sets par exclusive discounts.</p>
+                <div class="price">Upto 50% OFF</div>
+                <a href="https://urtrackinglink.com&file_id=45987" target="_blank" class="btn btn-green">Buy on Daraz</a>
             </div>
             <div class="card">
                 <span class="badge b-deal">55% OFF</span>
                 <h3>6. Portable Mini Electronic USB Fan</h3>
-                <p>Summer seasons mein light cutoff hone par kaam aane wala rechargeable mini power fan.</p>
+                <p>Daraz hot summer sale mega discounts! Light cutoff hone par kaam aane wala rechargeable smart handy power fan deal.</p>
                 <div class="price">Rs. 750</div>
-                <a href="https://daraz.pk" target="_blank" class="btn btn-green">Buy on Daraz</a>
+                <a href="https://urtrackinglink.com&file_id=35525" target="_blank" class="btn btn-green">Buy on Daraz</a>
             </div>
             <div class="card">
                 <span class="badge b-deal">30% OFF</span>
-                <h3>7. Premium Dinnerware Ceramic Plates</h3>
-                <p>Modern dining tables ke liye beautiful printed plates sets jo dastar khwan haseen banayein.</p>
+                <h3>7. Premium Dinnerware & Household</h3>
+                <p>Cutbazar mega lifestyle sale! Luxury house component deals aur home items wholesale rate par.</p>
                 <div class="price">Rs. 4,500</div>
-                <a href="https://daraz.pk" target="_blank" class="btn btn-green">Buy on Daraz</a>
+                <a href="https://urtrackinglink.com&file_id=35501" target="_blank" class="btn btn-green">Buy on Daraz</a>
             </div>
             <div class="card">
                 <span class="badge b-deal">65% OFF</span>
                 <h3>8. High-End Non-Stick Pan Set</h3>
-                <p>Oil free cooking ke liye 3 pieces ka reliable quality luxury kitchen frying utensil set.</p>
+                <p>Lajawab Store cookware special deal! Kam oil mein healthy khana pakane ke liye premium frying non-stick pans set.</p>
                 <div class="price">Rs. 2,999</div>
-                <a href="https://daraz.pk" target="_blank" class="btn btn-green">Buy on Daraz</a>
+                <a href="https://urtrackinglink.com&file_id=35549" target="_blank" class="btn btn-green">Buy on Daraz</a>
             </div>
             <div class="card">
-                <span class="badge b-deal">50% OFF</span>
-                <h3>9. Original Arabic Aura Smart Watch</h3>
-                <p>Fitness status tracking, mobile calls handling aur elegant black printed fiber strap watch.</p>
-                <div class="price">Rs. 692</div>
-                <a href="https://daraz.pk" target="_blank" class="btn btn-green">Buy on Daraz</a>
+                <span class="badge b-deal">48% OFF</span>
+                <h3>9. Branded Inverter Air Conditioners</h3>
+                <p>Summer clearance mega sale! High-end energy saving split AC and climate inverter setups par top saving discounts.</p>
+                <div class="price">Upto 48% OFF</div>
+                <a href="https://urtrackinglink.com&file_id=45975" target="_blank" class="btn btn-green">Buy on Daraz</a>
             </div>
             <div class="card">
                 <span class="badge b-deal">70% OFF</span>
                 <h3>10. Branded Casual Men Outfits</h3>
                 <p>Hot summer collections ke premium design t-shirts aur durable denim cotton fabrics trousers.</p>
                 <div class="price">Rs. 1,250</div>
-                <a href="https://daraz.pk" target="_blank" class="btn btn-green">Buy on Daraz</a>
+                <a href="https://urtrackinglink.com&file_id=35609" target="_blank" class="btn btn-green">Buy on Daraz</a>
             </div>
         </div>
-    </div>
+
+    </div> <!-- Container End -->
 
     <footer>
         <p>&copy; 2026 HOORULAIN | Pak Premium Hub. All Rights Reserved.</p>
