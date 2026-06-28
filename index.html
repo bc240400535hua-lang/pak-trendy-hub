@@ -1,148 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ur">
 <head>
-    <meta name="google-site-verification" content="_BL-Z3wkIZP8Lyqjl_GzsRIKrhdztapW9gxIDzuxgYw" />
-    <title>🌟 HOORULAIN | Pak Premium Hub</title>
-    <link rel="stylesheet" href="https://cloudflare.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOORULAIN | Pak Premium Hub</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
-        body { background: #0f111a; color: white; text-align: center; }
-        header { background: #171a26; padding: 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #6c5ce7; position: sticky; top: 0; z-index: 100; }
-        header .logo { font-size: 24px; font-weight: bold; color: #00cec9; }
-        nav a { color: white; text-decoration: none; margin-left: 15px; font-weight: bold; }
-        .hero { background: linear-gradient(45deg, #6c5ce7, #00cec9); padding: 50px 20px; }
-        .hero h1 { font-size: 36px; margin-bottom: 10px; }
-        .section { padding: 40px 20px; max-width: 900px; margin: 0 auto; text-align: left; }
-        .bg-dark2 { background: #131622; }
-        h2 { font-size: 26px; margin-bottom: 30px; color: #ffeaa7; border-left: 5px solid #00cec9; padding-left: 10px; }
-        .list-container { display: flex; flex-direction: column; gap: 35px; width: 100%; }
-        .card { background: #1c1f30; padding: 30px; border-radius: 20px; border: 1px solid #2d3436; width: 100%; display: block; clear: both; }
-        h3 { color: #fff; margin-bottom: 12px; font-size: 22px; display: flex; align-items: center; gap: 10px; }
-        p { color: #b2bec3; font-size: 15px; line-height: 1.6; margin-bottom: 25px; }
-        .buy-btn { display: inline-block; background: linear-gradient(135deg, #ff4757, #e84118); color: white; padding: 14px 30px; text-decoration: none; border-radius: 10px; font-weight: bold; text-align: center; font-size: 16px; box-shadow: 0 4px 15px rgba(255, 71, 87, 0.3); transition: 0.2s; }
-        .buy-btn:hover { transform: scale(1.03); }
-        .share-box { border-top: 1px solid #2d3436; padding-top: 15px; display: flex; justify-content: space-between; align-items: center; margin-top: 10px; }
-        .share-box span { font-size: 12px; color: #636e72; font-weight: bold; }
-        .share-buttons a { color: white; margin-left: 12px; font-size: 20px; text-decoration: none; }
-        .share-buttons .fa-whatsapp { color: #25D366; }
-        .share-buttons .fa-tiktok { color: #fff; }
-        .share-buttons .fa-instagram { color: #e1306c; }
-        .share-buttons .fa-facebook { color: #1877F2; }
-        footer { background: #090a0f; padding: 25px; font-size: 14px; margin-top: 60px; color: #636e72; border-top: 1px solid #2d3436; text-align: center; width: 100%; clear: both; display: block; }
-        footer strong { color: #00cec9; }
+        :root { --bg: #0f172a; --card: #1e293b; --red: #e11d48; --green: #10b981; --blue: #2563eb; --txt: #f8fafc; --muted: #94a3b8; }
+        body { font-family: sans-serif; background-color: var(--bg); color: var(--txt); margin: 0; padding: 0; line-height: 1.5; }
+        header { background: linear-gradient(135deg, #e11d48, #be123c); padding: 25px; text-align: center; }
+        header h1 { margin: 0; font-size: 2rem; }
+        header p { margin: 5px 0 0 0; color: #ffe4e6; font-size: 1rem; }
+        .container { max-width: 1100px; margin: auto; padding: 20px; }
+        h2 { border-left: 5px solid var(--red); padding-left: 10px; margin-top: 30px; color: #fff; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: var(--card); border-radius: 10px; padding: 15px; display: flex; flex-direction: column; justify-content: space-between; }
+        .badge { align-self: flex-start; color: white; font-size: 0.7rem; padding: 3px 8px; border-radius: 50px; font-weight: bold; margin-bottom: 8px; }
+        .b-drama { background-color: var(--red); }
+        .b-cric { background-color: var(--blue); }
+        .b-deal { background-color: var(--green); }
+        .card h3 { margin: 0 0 8px 0; font-size: 1.1rem; color: #fff; }
+        .card p { margin: 0 0 12px 0; color: var(--muted); font-size: 0.9rem; }
+        .price { font-size: 1.1rem; color: var(--green); font-weight: bold; margin-bottom: 10px; }
+        .btn { display: block; color: white; text-align: center; padding: 10px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 0.9rem; }
+        .btn-red { background-color: var(--red); }
+        .btn-green { background-color: var(--green); }
+        footer { text-align: center; padding: 30px; margin-top: 5px; background: #020617; color: var(--muted); font-size: 0.85rem; border-top: 1px solid #1e293b; }
     </style>
 </head>
 <body>
 
-    <!-- Main Navigation Header -->
     <header>
-        <div class="logo">🌟 HOORULAIN</div>
-        <nav>
-            <a href="#dramas">Dramas</a>
-            <a href="#cricket">Cricket</a>
-            <a href="#shop">Shop</a>
-        </nav>
+        <h1>🌟 HOORULAIN | Pak Premium Hub</h1>
+        <p>10 Dramas, 10 Cricket News & 10 Daraz Best Discount Deals</p>
     </header>
 
-    <!-- Welcome Banner -->
-    <section class="hero">
-        <h1>Hoorulain's Pak Trendy Hub</h1>
-        <p>Latest Drama Updates, Live Cricket News & Best Shopping Deals</p>
-    </section>
+    <div class="container">
 
-    <!-- 1. TRENDING PAKISTANI DRAMAS -->
-    <section id="dramas" class="section">
-        <h2>🎭 Trending Pakistani Serials</h2>
-        <div class="list-container">
+        <!-- ================= 10 DRAMA POSTS ================= -->
+        <h2>🎭 Trending Pakistani Serials (Top 10)</h2>
+        <div class="grid">
             <div class="card">
-                <h3>'Bas Tera Saath Ho' Breaks All Records!</h3>
-                <p>Pakistani rating charts ke mutabiq is hafte drama serial 'Bas Tera Saath Ho' ne sab ko peeche chhor diya ha. Is ki emotional story pure internet aur social media par aag ki tarah viral ho rahi ha!</p>
-                <div class="share-box">
-                    <span>Share News:</span>
-                    <div class="share-buttons">
-                        <a href="https://whatsapp.com Updates on Hoorulain's site!" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
-                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
+                <span class="badge b-drama">Rating: 11.7 TRP</span>
+                <h3>1. Bas Tera Saath Ho</h3>
+                <p>Farhan Saeed aur Sana Javed ka drama ARY Digital par top rating par chal raha hai.</p>
+                <a href="https://youtube.com" target="_blank" class="btn btn-red">Watch On YouTube</a>
             </div>
             <div class="card">
-                <h3>'Mann Mast Malang' Taking Internet by Storm</h3>
-                <p>Mawra Hocane aur Khushhal Khan ke fans ke liye bari khabar! Un ke hit characters ki chemistry aur suspense ki wajah se 'Mann Mast Malang' breakout romantic drama ban chuka ha. Fans TikTok par trending edits bina rahe hain.</p>
-                <div class="share-box">
-                    <span>Share Review:</span>
-                    <div class="share-buttons">
-                        <a href="https://whatsapp.com 'Mann Mast Malang' Review on Hoorulain's site!" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
-                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
+                <span class="badge b-drama">Rating: 10.6 TRP</span>
+                <h3>2. Dr. Bahu</h3>
+                <p>Kubra Khan aur Shuja Asad ka naya serial viewers ko boht pasand aa raha hai.</p>
+                <a href="https://youtube.com" target="_blank" class="btn btn-red">Watch On YouTube</a>
+            </div>
+            <div class="card">
+                <span class="badge b-drama">Trending Romance</span>
+                <h3>3. Winter Love</h3>
+                <p>Mawra Hocane aur Khushhal Khan ka hit romantic comedy drama jo abhi trend kar raha hai.</p>
+                <a href="https://youtube.com" target="_blank" class="btn btn-red">Watch On YouTube</a>
+            </div>
+            <div class="card">
+                <span class="badge b-drama">Rating: 9.4 TRP</span>
+                <h3>4. Zanjeerein</h3>
+                <p>Suspense aur family jhagron se bharpore drama jis ne rating charts par dhoom machai hai.</p>
+                <a href="https://youtube.com" target="_blank" class="btn btn-red">Watch On YouTube</a>
+            </div>
+            <div class="card">
+                <span class="badge b-drama">Rating: 9.1 TRP</span>
+                <h3>5. Mahnoor</h3>
+                <p>Unique kahani aur behtareen acting ki wajah se YouTube par har hafte top par rehta hai.</p>
+                <a href="https://youtube.com" target="_blank" class="btn btn-red">Watch On YouTube</a>
+            </div>
+            <div class="card">
+                <span class="badge b-drama">Rating: 8.7 TRP</span>
+                <h3>6. Humrahi</h3>
+                <p>Geo Entertainment ka mashhoor drama jo family rishton ki kahani bayan karta hai.</p>
+                <a href="https://youtube.com" target="_blank" class="btn btn-red">Watch On YouTube</a>
+            </div>
+            <div class="card">
+                <span class="badge b-drama">Rating: 8.6 TRP</span>
+                <h3>7. Rehmat</h3>
+                <p>Aik emotional aur sab ki bhalai karne wali larki ki kahani jo sab ko rula daiti hai.</p>
+                <a href="https://youtube.com" target="_blank" class="btn btn-red">Watch On YouTube</a>
+            </div>
+            <div class="card">
+                <span class="badge b-drama">Rating: 7.3 TRP</span>
+                <h3>8. Milkiyat</h3>
+                <p>Jaidad ke jhagron par bana drama jo strong acting ki wajah se maqbool ho raha hai.</p>
+                <a href="https://youtube.com" target="_blank" class="btn btn-red">Watch On YouTube</a>
+            </div>
+            <div class="card">
+                <span class="badge b-drama">Rating: 6.7 TRP</span>
+                <h3>9. Mirza Ki Heer</h3>
+                <p>Light comedy aur desi romance se bharpore weekend drama jo mood fresh karta hai.</p>
+                <a href="https://youtube.com" target="_blank" class="btn btn-red">Watch On YouTube</a>
+            </div>
+            <div class="card">
+                <span class="badge b-drama">Upcoming Buzz</span>
+                <h3>10. Raqqas (Green TV)</h3>
+                <p>Danyal Zafar aur Komal Meer ka naya drama jo jald Green TV par aane wala hai.</p>
+                <a href="https://youtube.com" target="_blank" class="btn btn-red">Watch Promo</a>
             </div>
         </div>
-    </section>
 
-    <!-- 2. REAL CRICKET NEWS -->
-    <section id="cricket" class="section bg-dark2">
-        <h2>🏏 Cricket Premium Corner</h2>
-        <div class="list-container">
+        <!-- ================= 10 CRICKET POSTS ================= -->
+        <h2>🏏 Cricket Premium Corner (Top 10)</h2>
+        <div class="grid">
             <div class="card">
-                <h3>Mike Hesson's White-Ball Camp Starts!</h3>
-                <p>Pakistan team ke naye coach Mike Hesson ne National Cricket Academy (NCA) Lahore mein 49 top players ka special conditioning aur fitness camp shuru karwa diya ha taakay team future matches mein behtar perform kare.</p>
-                <div class="share-box">
-                    <span>Share Post:</span>
-                    <div class="share-buttons">
-                        <a href="https://whatsapp.com Camp News on Hoorulain's site!" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
-                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
+                <span class="badge b-cric">T20 World Cup</span>
+                <h3>1. Pak Women Defeat Netherlands</h3>
+                <p>Pakistan women's team ne T20 World Cup ke match mein Netherlands ko 37 runs se hara diya.</p>
+                <a href="https://pcb.com.pk" target="_blank" class="btn btn-red">Full Match Report</a>
             </div>
             <div class="card">
-                <h3>Saleema Imtiaz Creates History for Pakistan!</h3>
-                <p>ICC T20 World Cup matches mein Saleema Imtiaz pehli pakistani female umpire ban gayi hain jinhon ne international panels mein match officiate kiya! Pure Pakistan mein un ke is historic record ko sraha ja raha ha.</p>
-                <div class="share-box">
-                    <span>Share News:</span>
-                    <div class="share-buttons">
-                        <a href="https://whatsapp.com Imtiaz History Record News on Hoorulain's site!" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
-                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
+                <span class="badge b-cric">Heroics</span>
+                <h3>2. Captain Fatima Sana's Record</h3>
+                <p>Fatima Sana ne Netherlands ke khilaf triple-wicket maiden over karwa kar match badal diya.</p>
+                <a href="https://pcb.com.pk" target="_blank" class="btn btn-red">View Stats</a>
             </div>
-        </div>
-    </section>
-
-    <!-- 3. PREMIUM SHOP SECTION -->
-    <section id="shop" class="section">
-        <h2>🛍️ Hot Offers Store (Verified Earning Portal)</h2>
-        <div class="list-container">
-            
-            <!-- Card 1: Fashion Clearance -->
             <div class="card">
-                <h3><span>👗</span> Trending Celebrity Lawn Suit (Fashion Clearance)</h3>
-                <p>Worn by top actresses in viral Pakistani serials. Get up to 71% exclusive off on beautiful premium designer lawn suits directly via this page.</p>
-                <a href="https://daraz.pk" target="_blank" class="buy-btn"><i class="fas fa-shopping-cart"></i> Buy on Daraz Fashion Clearance</a>
+                <span class="badge b-cric">Bowling Spark</span>
+                <h3>3. Ayesha Zafar's Double Strike</h3>
+                <p>Ayesha Zafar ne behtareen bowling karte hue aik over mein do keemti wicktein haseel keen.</p>
+                <a href="https://pcb.com.pk" target="_blank" class="btn btn-red">Match Highlights</a>
             </div>
-
-            <!-- Card 2: Home Essentials -->
             <div class="card">
-                <h3><span>🏠</span> Premium Daraz Home Essentials</h3>
-                <p>Get up to 60% flat off on premium kitchen tools, electronic household appliances, and daily usage household items directly from the catalog.</p>
-                <a href="https://daraz.pk" target="_blank" class="buy-btn"><i class="fas fa-shopping-cart"></i> Shop Home Essentials</a>
+                <span class="badge b-cric">Domestic News</span>
+                <h3>4. PCB Domestic Season Announced</h3>
+                <p>PCB ne elaan kiya hai ke naya domestic cricket season jald August se shuru ho jayega.</p>
+                <a href="https://pcb.com.pk" target="_blank" class="btn btn-red">See Schedule</a>
             </div>
-
-            <!-- Card 3: Hot Summer Mega Sale -->
             <div class="card">
-                <h3><span>☀️</span> Daraz Hot Summer Mega Sale Store</h3>
-                <p>Exclusive seasonal summer outfits, trending styles, and hot items with premium tier markdown discount prices available right now.</p>
-                <a href="https://daraz.pk" target="_blank" class="buy-btn"><i class="fas fa-shopping-cart"></i> Grab Hot Summer Deals</a>
+                <span class="badge b-cric">Changes</span>
+                <h3>5. Separate Format Teams</h3>
+                <p>PCB ab Test, ODI aur T20 ke liye alag-alag teams banane ki policy par ghaur kar raha hai.</p>
+                <a href="https://pcb.com.pk" target="_blank" class="btn btn-red">Read PCB Policy</a>
             </div>
-
-            <!-- Card 4: Hommold -->
             <div class="card">
-                <h3><span>🍽️</span> Hommold Premium Kitchen Utilities</h3>
-                <p>High-end smart organizers, dinnerware components, and luxury storage setups for modern Pakistani homes at wholesale rates.</p>
+                <span class="badge b-cric">History</span>
+                <h3>6. Saleema Imtiaz Creates History</h3>
+                <p>Saleema Imtiaz T20 World Cup mein match officiate karne wali pehli female umpire baniyan.</p>
+                <a href="https://pcb.com.pk" target="_blank" class="btn btn-red">Read News</a>
+            </div>
+            <div class="card">
+                <span class="badge b-cric">National Camp</span>
+                <h3>7. Mike Hesson's White-Ball Camp</h3>
+                <p>NCA Lahore mein coach Mike Hesson ne 49 top players ka special fitness camp shuru karwaya.</p>
+                <a href="https://pcb.com.pk" target="_blank" class="btn btn-red">Player List</a>
+            </div>
+            <div class="card">
+                <span class="badge b-cric">Statement</span>
+                <h3>8. Hasan Ali Worried About Form</h3>
+                <p>Hasan Ali ne bayan diya ke woh team ki performance behtar karne ke liye hardwork kar rahe hain.</p>
+                <a href="https://pcb.com.pk" target="_blank" class="btn btn-red">Full Interview</a>
+            </div>
+            <div class="card">
+                <span class="badge b-cric">Upcoming Tour</span>
+                <h3>9. Pakistan Tour of West Indies</h3>
+                <p>Pakistan men's team ka tour of West Indies July se shuru hoga jahan matches khele jayein ge.</p>
+                <a href="https://pcb.com.pk" target="_blank" class="btn btn-red">Series Fixtures</a>
+            </div>
+            <div class="card">
+                <span class="badge b-cric">Champions</span>
+                <h3>10. Abbottabad Wins National T20</h3>
